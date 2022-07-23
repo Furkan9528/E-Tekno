@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "622b71421a1524254eb76d71"
+  },
+  "productName": "Iphone 13",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Iphone 13 Pro 128 GB",
+  "image": "iphone-13.png",
+  "price": 1599
+},{
+  "_id": {
+    "$oid": "622b71884ec2c21c4774445b"
+  },
+  "productName": "Iphone 12",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Iphone 12 Pro 128 GB",
+  "image": "iphone-12.png",
+  "price": 899
+},{
+  "_id": {
+    "$oid": "622b74544ec2c21c4774445c"
+  },
+  "productName": "Iphone 12",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Iphone 12 64 GB",
+  "image": "iphone-12-64.png",
+  "price": 799
+},{
+  "_id": {
+    "$oid": "6231b26345fd252270976a7a"
+  },
+  "productName": "Iphone 13",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Iphone 13 64 GB",
+  "image": "Apple-iphone-13_64.png",
+  "price": 899
+},{
+  "_id": {
+    "$oid": "6231b29c45fd252270976a7b"
+  },
+  "productName": "Iphone 13",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Iphone 13 128 GB",
+  "image": "Apple-iphone-13_128.png",
+  "price": 1299
+},{
+  "_id": {
+    "$oid": "6231b3cd45fd252270976a7d"
+  },
+  "productName": "Dell XPS 9305",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Dell XPS 9305 8 Go RAM 256 Go",
+  "image": "Dell_512Gb.png",
+  "price": 1399
+},{
+  "_id": {
+    "$oid": "6231b45045fd252270976a7e"
+  },
+  "productName": "Apple MacBook Pro",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Apple M1 Pro CPU 10 cœur 512GB",
+  "image": "Mac_Pro.png",
+  "price": 799
+},{
+  "_id": {
+    "$oid": "6231b9f745fd252270976a7f"
+  },
+  "productName": "Apple MacBook Pro",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "Apple M1 Pro CPU 10 cœur 256GB",
+  "image": "Mac_Pro_256.png",
+  "price": 999
+},{
+  "_id": {
+    "$oid": "623863ec62a7bf644cc7741a"
+  },
+  "productName": "Samsung Galaxy A32",
+  "info": "SAMSUNG FRANCE GUARANTEED",
+  "description": "Galaxy A32 5G Noir 128Gb",
+  "image": "Samsung-Galaxy-A32-5G.png",
+  "price": 899
+},{
+  "_id": {
+    "$oid": "623863fc62a7bf644cc7741b"
+  },
+  "productName": "Apple iPad Air",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "10,9 Pouces, Wi-FI, 256 Go, Rose",
+  "image": "tablet-2.png",
+  "price": 799
+},{
+  "_id": {
+    "$oid": "6238641862a7bf644cc7741c"
+  },
+  "productName": "2021 Apple iPad mini",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "8,3 Pouces, Wi-FI + Cellular, 64Go",
+  "image": "tablet-3.png",
+  "price": 999
+},{
+  "_id": {
+    "$oid": "6238642062a7bf644cc7741d"
+  },
+  "productName": "2021 Apple iPad Pro",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "12,9 Pouces, Wi-FI, 256 Go, Argent",
+  "image": "tablet-4.png",
+  "price": 1299
+},{
+  "_id": {
+    "$oid": "6238642962a7bf644cc7741e"
+  },
+  "productName": "2021 Apple iPad Pro",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "12,9 Pouces, Wi-FI, 256 Go, Gris",
+  "image": "tablet-5.png",
+  "price": 899
+},{
+  "_id": {
+    "$oid": "6238649362a7bf644cc7741f"
+  },
+  "productName": "2021 Apple iPad",
+  "info": "APPLE FRANCE GUARANTEED",
+  "description": "10,2 pouces, Wi-Fi 256 Go Gris",
+  "image": "tablet-256Gb.png",
+  "price": 799
+},{
+  "_id": {
+    "$oid": "623864a662a7bf644cc77420"
+  },
+  "productName": "TECLAST F15S",
+  "info": "TECLAST FRANCE GUARANTEED",
+  "description": "15,6 Pouces, 6Go RAM 128Go SSD",
+  "image": "Teclast_256Gb.png",
+  "price": 669
+},{
+  "_id": {
+    "$oid": "624dab98fa00f47d27471790"
+  },
+  "productName": "TECLAST",
+  "info": "TECLAST FRANCE GUARANTEED",
+  "description": "15,6 Pouces, 6Go RAM 256Go SSD",
+  "image": "Teclast_256Gb.png",
+  "price": 8899
+}]

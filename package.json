@@ -1,0 +1,49 @@
+{
+  "name": "e-teknosa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "Furkan & Nicolas",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/stripe-js": "^1.10.0",
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "chalk": "^4.1.2",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.9.23",
+    "noty": "^3.2.0-beta-deprecated",
+    "ora": "^5.4.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.3.0",
+    "stripe": "^8.215.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^5.0.4",
+    "nodemon": "^2.0.15",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^8.0.2",
+    "tailwindcss": "^3.0.23",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

@@ -1,0 +1,1117 @@
+[{
+  "_id": {
+    "$oid": "623f044ee5d091354066e937"
+  },
+  "paymentType": "COD",
+  "status": "completed",
+  "customerId": {
+    "$oid": "622c92eba1ffbb1cb8e08302"
+  },
+  "items": {
+    "6231b26345fd252270976a7a": {
+      "item": {
+        "_id": "6231b26345fd252270976a7a",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 64 GB",
+        "image": "Apple-iphone-13_64.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    },
+    "6231b3cd45fd252270976a7d": {
+      "item": {
+        "_id": "6231b3cd45fd252270976a7d",
+        "productName": "Dell XPS 9305",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Dell XPS 9305 8 Go RAM 256 Go",
+        "image": "Dell_512Gb.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "12312312312",
+  "address": "15 avenue charles de gaulle",
+  "createdAt": {
+    "$date": "2022-03-26T12:17:18.764Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-26T12:56:13.746Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "623f0d9ccfe9823288af3e29"
+  },
+  "paymentType": "COD",
+  "status": "completed",
+  "customerId": {
+    "$oid": "622c92eba1ffbb1cb8e08302"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    },
+    "6231b3cd45fd252270976a7d": {
+      "item": {
+        "_id": "6231b3cd45fd252270976a7d",
+        "productName": "Dell XPS 9305",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Dell XPS 9305 8 Go RAM 256 Go",
+        "image": "Dell_512Gb.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "76876",
+  "address": "gvhjvb",
+  "createdAt": {
+    "$date": "2022-03-26T12:57:00.142Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-27T13:31:19.934Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624053e60446384310aa956d"
+  },
+  "paymentType": "COD",
+  "status": "prepared",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "6231b37345fd252270976a7c": {
+      "item": {
+        "_id": "6231b37345fd252270976a7c",
+        "productName": "GemiBook 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "GemiBook 13 8 Go RAM 256 Go",
+        "image": "GemiBook-13.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "6231b3cd45fd252270976a7d": {
+      "item": {
+        "_id": "6231b3cd45fd252270976a7d",
+        "productName": "Dell XPS 9305",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Dell XPS 9305 8 Go RAM 256 Go",
+        "image": "Dell_512Gb.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "623863fc62a7bf644cc7741b": {
+      "item": {
+        "_id": "623863fc62a7bf644cc7741b",
+        "productName": "Apple iPad Air",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "10,9 Pouces, Wi-FI, 256 Go, Rose",
+        "image": "tablet-2.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    }
+  },
+  "phone": "747474747",
+  "address": "12 avenue avenue avenue",
+  "createdAt": {
+    "$date": "2022-03-27T12:09:10.557Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-27T13:33:16.154Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6240678ba2fc463c303dd2bc"
+  },
+  "paymentType": "COD",
+  "status": "confirmed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "6231b45045fd252270976a7e": {
+      "item": {
+        "_id": "6231b45045fd252270976a7e",
+        "productName": "Apple MacBook Pro",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Apple M1 Pro CPU 10 cœur 512GB",
+        "image": "Mac_Pro.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "6238641862a7bf644cc7741c": {
+      "item": {
+        "_id": "6238641862a7bf644cc7741c",
+        "productName": "2021 Apple iPad mini",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "8,3 Pouces, Wi-FI + Cellular, 64Go",
+        "image": "tablet-3.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "623863fc62a7bf644cc7741b": {
+      "item": {
+        "_id": "623863fc62a7bf644cc7741b",
+        "productName": "Apple iPad Air",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "10,9 Pouces, Wi-FI, 256 Go, Rose",
+        "image": "tablet-2.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "06704045",
+  "address": "12 avenuea asdasd asd",
+  "createdAt": {
+    "$date": "2022-03-27T13:32:59.750Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-27T13:36:17.269Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62406b3bb8c275339c7b98aa"
+  },
+  "paymentType": "COD",
+  "status": "prepared",
+  "customerId": {
+    "$oid": "622c92eba1ffbb1cb8e08302"
+  },
+  "items": {
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    },
+    "6231b3cd45fd252270976a7d": {
+      "item": {
+        "_id": "6231b3cd45fd252270976a7d",
+        "productName": "Dell XPS 9305",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Dell XPS 9305 8 Go RAM 256 Go",
+        "image": "Dell_512Gb.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "340903434",
+  "address": "12 avenue avenue",
+  "createdAt": {
+    "$date": "2022-03-27T13:48:43.383Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-27T15:46:52.083Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6240ba5ae17bcd3b84f00c18"
+  },
+  "paymentType": "COD",
+  "status": "prepared",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 2
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    }
+  },
+  "phone": "0606060606",
+  "address": "Sarcelles 95200",
+  "createdAt": {
+    "$date": "2022-03-27T19:26:18.265Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-27T19:30:43.320Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6240bbc3dd08d42858c105f2"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "622c92eba1ffbb1cb8e08302"
+  },
+  "items": {
+    "6231b29c45fd252270976a7b": {
+      "item": {
+        "_id": "6231b29c45fd252270976a7b",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 128 GB",
+        "image": "Apple-iphone-13_128.png",
+        "price": 1299
+      },
+      "qty": 1
+    }
+  },
+  "phone": "06060606006",
+  "address": "12 avenue",
+  "createdAt": {
+    "$date": "2022-03-27T19:32:19.537Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-27T19:32:19.537Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6246c625ecaef128e0f480a4"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71421a1524254eb76d71": {
+      "item": {
+        "_id": "622b71421a1524254eb76d71",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 Pro 128 GB",
+        "image": "iphone-13.png",
+        "price": 1599
+      },
+      "qty": 1
+    }
+  },
+  "phone": "6565656656",
+  "address": "12 avenue ",
+  "createdAt": {
+    "$date": "2022-04-01T09:30:13.277Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-01T09:30:13.277Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6246d0ef7ef94e4a3c1e9354"
+  },
+  "paymentType": "COD",
+  "status": "delivered",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "6231b37345fd252270976a7c": {
+      "item": {
+        "_id": "6231b37345fd252270976a7c",
+        "productName": "GemiBook 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "GemiBook 13 8 Go RAM 256 Go",
+        "image": "GemiBook-13.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "23 avenue",
+  "address": "656565",
+  "createdAt": {
+    "$date": "2022-04-01T10:16:15.853Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-01T15:55:46.571Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6246d109525aa536e0d7f2b2"
+  },
+  "paymentType": "COD",
+  "status": "confirmed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "6231b37345fd252270976a7c": {
+      "item": {
+        "_id": "6231b37345fd252270976a7c",
+        "productName": "GemiBook 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "GemiBook 13 8 Go RAM 256 Go",
+        "image": "GemiBook-13.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "23 avenue",
+  "address": "656565",
+  "createdAt": {
+    "$date": "2022-04-01T10:16:41.334Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-01T10:20:17.851Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6246d14cf8b58d1a4cfc54ef"
+  },
+  "paymentType": "COD",
+  "status": "completed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "6231b37345fd252270976a7c": {
+      "item": {
+        "_id": "6231b37345fd252270976a7c",
+        "productName": "GemiBook 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "GemiBook 13 8 Go RAM 256 Go",
+        "image": "GemiBook-13.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "75757557",
+  "address": "12 avenue",
+  "createdAt": {
+    "$date": "2022-04-01T10:17:48.914Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-01T10:19:08.656Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62484a215b1b2f30447c6e1b"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71421a1524254eb76d71": {
+      "item": {
+        "_id": "622b71421a1524254eb76d71",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 Pro 128 GB",
+        "image": "iphone-13.png",
+        "price": 1599
+      },
+      "qty": 1
+    },
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    }
+  },
+  "phone": "123",
+  "address": "12 avenue",
+  "createdAt": {
+    "$date": "2022-04-02T13:05:37.994Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T13:05:37.994Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62484d205b1b2f30447c6e1c"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "6231b37345fd252270976a7c": {
+      "item": {
+        "_id": "6231b37345fd252270976a7c",
+        "productName": "GemiBook 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "GemiBook 13 8 Go RAM 256 Go",
+        "image": "GemiBook-13.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "6231b3cd45fd252270976a7d": {
+      "item": {
+        "_id": "6231b3cd45fd252270976a7d",
+        "productName": "Dell XPS 9305",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Dell XPS 9305 8 Go RAM 256 Go",
+        "image": "Dell_512Gb.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "0606060606",
+  "address": "12 allée charles de gaulle",
+  "createdAt": {
+    "$date": "2022-04-02T13:18:24.116Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T13:18:24.116Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62484e4e295c3512287b4f54"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "6231b37345fd252270976a7c": {
+      "item": {
+        "_id": "6231b37345fd252270976a7c",
+        "productName": "GemiBook 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "GemiBook 13 8 Go RAM 256 Go",
+        "image": "GemiBook-13.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "6231b3cd45fd252270976a7d": {
+      "item": {
+        "_id": "6231b3cd45fd252270976a7d",
+        "productName": "Dell XPS 9305",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Dell XPS 9305 8 Go RAM 256 Go",
+        "image": "Dell_512Gb.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "0707070707",
+  "address": "34 avenue charles de gaulle",
+  "createdAt": {
+    "$date": "2022-04-02T13:23:26.138Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T13:23:26.138Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62485089eeceac2c68877a59"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "623863ec62a7bf644cc7741a": {
+      "item": {
+        "_id": "623863ec62a7bf644cc7741a",
+        "productName": "Samsung Galaxy A32",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Galaxy A32 5G Noir 128Gb",
+        "image": "Samsung-Galaxy-A32-5G.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "623863fc62a7bf644cc7741b": {
+      "item": {
+        "_id": "623863fc62a7bf644cc7741b",
+        "productName": "Apple iPad Air",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "10,9 Pouces, Wi-FI, 256 Go, Rose",
+        "image": "tablet-2.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "060606",
+  "address": "16 avenue",
+  "createdAt": {
+    "$date": "2022-04-02T13:32:57.569Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T13:32:57.569Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62485196eeceac2c68877a5a"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    },
+    "6231b26345fd252270976a7a": {
+      "item": {
+        "_id": "6231b26345fd252270976a7a",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 64 GB",
+        "image": "Apple-iphone-13_64.png",
+        "price": 899
+      },
+      "qty": 1
+    }
+  },
+  "phone": "12",
+  "address": "12 avenue",
+  "createdAt": {
+    "$date": "2022-04-02T13:37:26.858Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T13:37:26.858Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624851bbeeceac2c68877a5b"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "6231b26345fd252270976a7a": {
+      "item": {
+        "_id": "6231b26345fd252270976a7a",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 64 GB",
+        "image": "Apple-iphone-13_64.png",
+        "price": 899
+      },
+      "qty": 1
+    }
+  },
+  "phone": "dasf",
+  "address": "12",
+  "createdAt": {
+    "$date": "2022-04-02T13:38:03.564Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T13:38:03.564Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62486b990eca6e06e839fab1"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    }
+  },
+  "phone": "0505050",
+  "address": "12 avenue",
+  "createdAt": {
+    "$date": "2022-04-02T15:28:25.118Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T15:28:25.118Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624877b9326c432fa0e11fad"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 2
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    }
+  },
+  "phone": "0707070707",
+  "address": "12 avenue charles de gaulle",
+  "createdAt": {
+    "$date": "2022-04-02T16:20:09.917Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T16:20:09.917Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62487836326c432fa0e11fae"
+  },
+  "paymentType": "COD",
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    }
+  },
+  "phone": "060606006",
+  "address": "12 avenue charles de gaulle",
+  "createdAt": {
+    "$date": "2022-04-02T16:22:14.839Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T16:22:14.839Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62487aad5f924435dcc6324c"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 1
+    }
+  },
+  "phone": "06060606",
+  "address": "12 avenue charles de gaulle",
+  "createdAt": {
+    "$date": "2022-04-02T16:32:45.096Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T16:32:45.096Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62487bd711d099552cfa29ff"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 1
+    }
+  },
+  "phone": "07070707",
+  "address": "12 avenue charles de gaulle",
+  "createdAt": {
+    "$date": "2022-04-02T16:37:43.211Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T16:37:44.842Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62487ce0797a46273c8dc5ea"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "completed",
+  "customerId": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "items": {
+    "6238642962a7bf644cc7741e": {
+      "item": {
+        "_id": "6238642962a7bf644cc7741e",
+        "productName": "2021 Apple iPad Pro",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "12,9 Pouces, Wi-FI, 256 Go, Gris",
+        "image": "tablet-5.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "0606060606",
+  "address": "12 avenue",
+  "createdAt": {
+    "$date": "2022-04-02T16:42:08.957Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T16:59:10.042Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6248807b6d2f814b30257162"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "624880316d2f814b30257161"
+  },
+  "items": {
+    "6231b3cd45fd252270976a7d": {
+      "item": {
+        "_id": "6231b3cd45fd252270976a7d",
+        "productName": "Dell XPS 9305",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Dell XPS 9305 8 Go RAM 256 Go",
+        "image": "Dell_512Gb.png",
+        "price": 459
+      },
+      "qty": 1
+    },
+    "6231b37345fd252270976a7c": {
+      "item": {
+        "_id": "6231b37345fd252270976a7c",
+        "productName": "GemiBook 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "GemiBook 13 8 Go RAM 256 Go",
+        "image": "GemiBook-13.png",
+        "price": 459
+      },
+      "qty": 1
+    }
+  },
+  "phone": "06066060606",
+  "address": "16 allée charles de gaulles ",
+  "createdAt": {
+    "$date": "2022-04-02T16:57:31.988Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T16:59:19.956Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624daa745f0ba33aa0d0edcd"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerId": {
+    "$oid": "624880316d2f814b30257161"
+  },
+  "items": {
+    "6231b26345fd252270976a7a": {
+      "item": {
+        "_id": "6231b26345fd252270976a7a",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 64 GB",
+        "image": "Apple-iphone-13_64.png",
+        "price": 899
+      },
+      "qty": 1
+    },
+    "622b74544ec2c21c4774445c": {
+      "item": {
+        "_id": "622b74544ec2c21c4774445c",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 64 GB",
+        "image": "iphone-12-64.png",
+        "price": 799
+      },
+      "qty": 2
+    },
+    "622b71884ec2c21c4774445b": {
+      "item": {
+        "_id": "622b71884ec2c21c4774445b",
+        "productName": "Iphone 12",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 12 Pro 128 GB",
+        "image": "iphone-12.png",
+        "price": 899
+      },
+      "qty": 2
+    },
+    "622b71421a1524254eb76d71": {
+      "item": {
+        "_id": "622b71421a1524254eb76d71",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 Pro 128 GB",
+        "image": "iphone-13.png",
+        "price": 1599
+      },
+      "qty": 1
+    },
+    "6231b45045fd252270976a7e": {
+      "item": {
+        "_id": "6231b45045fd252270976a7e",
+        "productName": "Apple MacBook Pro",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Apple M1 Pro CPU 10 cœur 512GB",
+        "image": "Mac_Pro.png",
+        "price": 799
+      },
+      "qty": 1
+    },
+    "6231b29c45fd252270976a7b": {
+      "item": {
+        "_id": "6231b29c45fd252270976a7b",
+        "productName": "Iphone 13",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "Iphone 13 128 GB",
+        "image": "Apple-iphone-13_128.png",
+        "price": 1299
+      },
+      "qty": 1
+    },
+    "623863fc62a7bf644cc7741b": {
+      "item": {
+        "_id": "623863fc62a7bf644cc7741b",
+        "productName": "Apple iPad Air",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "10,9 Pouces, Wi-FI, 256 Go, Rose",
+        "image": "tablet-2.png",
+        "price": 799
+      },
+      "qty": 1
+    },
+    "6238641862a7bf644cc7741c": {
+      "item": {
+        "_id": "6238641862a7bf644cc7741c",
+        "productName": "2021 Apple iPad mini",
+        "info": "APPLE FRANCE GUARANTEED",
+        "description": "8,3 Pouces, Wi-FI + Cellular, 64Go",
+        "image": "tablet-3.png",
+        "price": 999
+      },
+      "qty": 1
+    },
+    "undefined": {
+      "item": {
+        "delete": ""
+      },
+      "qty": -4
+    }
+  },
+  "phone": "05050500",
+  "address": "12 avenueee",
+  "createdAt": {
+    "$date": "2022-04-06T14:57:56.071Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-06T14:57:56.071Z"
+  },
+  "__v": 0
+}]

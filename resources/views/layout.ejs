@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tekno</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/css.css">
+</head>
+<body>
+  <nav class="container mx-auto flex items-center justify-between py-4">
+    <div>
+      <a href="/"><img src="/img/logo.png" width="150px" height="150px" alt="logo"></a>
+    </div>
+    <div>
+      <ul class="flex items-center">
+        <li class="ml-6"><a href="/">Accueil</a></li>
+        <li class="ml-6"><a href="/menu">Menu</a></li>
+        <% if(user) { %>
+        <li class="ml-6">
+          <form id="logout" action="/logout" method="POST">
+            <a onclick="document.getElementById('logout').submit()" 
+            href="#">Logout</a>
+          </form>
+        </li>
+        <% } else { %>
+        <li class="ml-6"><a href="/register">Register</a></li>
+        <li class="ml-6"><a href="/login">Login</a></li>
+        <% } %>
+        <li class="ml-6"><a href="/cart" class="inline-block px-4 py-2 rounded-full flex items-center">
+          <span id="cartCounter" class="text-white font-bold pr-1" style="color:#b80505"><%= session.cart ? session.cart.totalQty : '' %></span>
+          <img src="/img/cart.png" alt="cart" width="50px" height="50px"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <%- body %>
+  <footer class="footer-distributed container mx-auto flex items-center justify-between py-4" style="margin-top: 100px; background-color: #aaaa;">
+    <div class="footer-left">
+      <p class="footer-links">
+        <a class="link-1" href="/">Accueil</a>
+        <a href="/menu">Menu</a>
+      </p>
+      <p>E-Tekno &copy; 2022</p>
+    </div>
+    <div class="footer-right">
+      <a href="#"><i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADz0lEQVRoge2XTWgdVRiGn+/MpGnv3LRoqC4UhCz8I8RFRClSXdgqWkuV4CRpi1gqglZTuhFXkiDdCVIKBfEHo1Bzr0JRtGAqWhTBQhsaFX9ADbZisbXaJnPb5t6Z+VyotU0yc89MYlGYZzcz73fO+84ZzjcHCgoKCgoK/sfIJZ2tOnmdq+ZxYLXCNUCowvdG9b3QNbvo8Y7NLFm0O+iqry9/njRk0wDOSO2e6JvS+wxKnNv4oBr3hmBIkacBN8FKgLIt6vNe4u0Tbc65xXch8gSxfBn1eU/mC1A9Xna09JPAcNhb3prXvzMy9QIij1rKDwFdQAtwLJKoE3/Zb0likzqxercDyxQGnJHaLqrqWLv+e4xqsD6DeYBu/jR/0gj30lB13wjuTBKnBlCJO85fiD7maG0P1dOXW1tRFWJ91lr/DyHI/ljZ4bjud8bheJIwNQA66/laR51xtxqstnHRUjlzMyIdzZWzcEF7gFsQ2VT3y18kCVMDCGZijttXqzLqVKb28Nbk9Wn1Mdpp53dOfhXiVZHvvZMmSg0QLT6zHySY+6nc70TmK6cSvOtUamvZq60zFSralsXxDAbC3qWfNhMlbGl/sW75lFSCVxQGEhQCrAFd40zVJqnU9in6mREdC018VCJJ3D2aojptI2veyF5Tz22tjSlcm9tMDkS5O+wrjzbTpW+jI8EGZ1GtR2LpUxhfOHvNMYZZXXkuUj8hFW0XZEcsisDZhbFmhdbPeT/YCNNXQOTjCy6XzMtSBgS+5iGp2WhTAzT88mGEAwtjyx5FP7HVpjcywCBbgMa8HGXGpO79FymbCRq+dwjVDVy6ECcjKX1gK24aACDqa3vTqNyGcDC/LztEeRFf6rZ6qwAAsXAVyCDKq4BVk8nB2VBlZ5aC9E58MatQ3fJvnuEEdtLv/ZylxnoFIomHgF8yu7LnSNiY3p61yDoAftsJE5t1wO9ZJ7EgFuERNrZPZi20DwA0+ksHIie6Ffgw60RpqMhQ6Jf35anN/UW3VGvdkXKfiK5ESTzyWTAc+d4mRDRPcaYVuJDGg6UxgaMo3XnHAIYj8TbnNQ95VmCvtjpBrV9hmyhdOedVRZ6J/dL2+ZiHlAAtI8FNGHFVY0+FK1SlQ+AOYCUwn5PWhKCbw962j+YxxnkS+0CjtfGjW295SpGtKKUF2P5PK/JcPF163vZP04bmvnYHVxqHjcDDApkP6QrjqL4ct4av88Blp/KYTCPbi61O3ehgVhDrCgydxLockXZgKXAKZRLDBKrfouZgZMwo/pIjC226oKCgoKCg4L/CH/2pQ2x506tNAAAAAElFTkSuQmCC"/></i></a>
+      <a href="#"><i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACjklEQVRoge2ZT2gTQRTGv9m0pu0mEAu2ikuJDQqCNNbWniJ6qViwFg+i0osXvTeCDfSmElIPAQ8eRK8FsQiilXqzgvWgLbbpQRFUrD0YW0ItCSbY3edFlCQ7SSd1divM7/bmvZ39vn37Z3YXUCgUCjdh1Qo8idQAiIaIoRuA7oAmAMgR2GsNlDRj4ceVCisa0EbnEiA2/G+1CRO3YuERXpJrwJNIDRDooRxNYjCN+s0rByfschp3K6IhaYoEsSwW5eW4BoihS44ccRjQzcvxOwD4JGipFT8vUcmALfuavZgaDGEtegDPB0PYu927OWmbRNjAnT4DRwwder2GiKHjdp8hQ9eGETbQ2dpYFHeVxE4jbOBN+kdRPFsSO42wgYuTS3ixlEPup4WpxSwuTX6RoWvD1Ilu8D5TwNGxDzK01IRwB7Yawh0whzvKxjyjqar53f56XO7Zgd6gD+0BLwqmhYXlPO6/XcXd+QwKJolKAVCDgVoItzTg6dl2tDT93V1DnQcRQ0fE0HGhoxn945/wNbcuPLcjp9D46WCR+FIOtTZi7FRb9bW9DY4YCAW2Va051ubDiRB3xcDFEQMWATdnVtB77yPOP1rEs89Z27pz+wPCcztyDVydTuPadPpP/ODdd0ycCeL4nuIj3rOrSXhuRzpwa3alKDaJEH/5raxupy5+PKUbIACZvFk2vrCcLxvzez3C80s3wLuzrBbKTW3Zu5BMlAG3UQbcRhlwm//eAPfZoSXma3vDkIQVC9tqrdQB+yWjK7A1Xob/bRRsRo4YcQjE1cI1oIGScuSIo8HiauEa+P1nJC5FkRB03Yx1PuFlq/9iujF30rJYlAGH4dwX6ywBrzRYyUriFQqFwn1+AXvFo7bcPPZdAAAAAElFTkSuQmCC"/></i></a>
+      <a href="https://gitlab.com/furkan28/E-Tekno"><i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFCklEQVRoge2YzXNTZRTGf+/9yG1yk7SVpB+U2qEUDP0AaqGgFRlm3LFutROVJRuXLhhXbnSGGcY9bp1u4H9wpjqiog4giLQFxqoQQgj9oi1tk/u6IGnzce9Nmo8ZHfusknPO+z7Pk3POTVrYwQ528P9AbORYX+z48d5/G49SbqElxailyrHKZJWP7fKUbQApR5Hy3YpUbQfb5CnLQGzkWB/QC0TqOUaV8JRlwJJidPN1HceoEp7yRkjK0ZzX9RujCnhKGshpaxZ1GaNKeUoayG3rZqwOY1QpT+kRym3rVqz2Y1Qhj6sBm7ZmUdMxqobH1YBdWzdzNRyjanjcR8iurVu52o1RFTyOBlzamkVNxqhaHkcDbm3drKnBGFXL4zxCbm3dqql+jKrk0WzrJ/Yf4RFJHgZLXR2JmydmUsvpnpIibODxqzOhPnN/ycLO+YT8aP8REZ25UZiy74DKWfYsDBNcu1Pq7sYO4+9yxNoh0GE8LFnkX5ti99JRVM7apYsMyEtDOlJEAYNIoglPOul2v6dJ2wfIMjXnwQhqe10LdGuO3ic+wIsUUXlpSC8sKe5AYOkMEAZAyN30x/9EyLQThxB0GkGtZKcK0RDUbqPQ5VwhLQZi9xF0ZgLhjLY8FBtQClqlpwc5kPzWTUyww3hahuY8BDoN187yWvIbdOuoqzYKDMjLPWEkRS5pWj1F69IPTlx6QD0IOHapCEJYml+NOOZDy9doWj1VFJeckZd7wrmh/A6k1ChQNGeAoGu+H9/6A3tBtHibtV9LK38Jb5N2U0CrfTL1B93PIoCwyeoZjZvIN6BI203PiPTT/wRU+dwu7e8wbON2CHR67GsVuUxfLIXA+fldoLFgB8TnwJzjYSG76YvbftK6qQ4IIdYcz2avUMS61qD02yZ74zdQcftOWUTyRW4gz4B4b+oKljoIOC+td+NN9s5N2mSafGHtpgv5y+Mh7QZCNBcluuYmMTdGXI7+iJoeEuPTX+UGi55CIvr7LOr0aRDngQ3bq1qej9D8okis2W6kShnw29U0rt6m7fkbDkfSwAUWAyfF2P17RXrdyOTEgWEUJsCurSLB9fY062pbTnAl9tOSlJY07e5TNLHcNhQA2Mp7UgmOxCyE7VLPAh+I8WnHiXD9e0BEp6+RtoaAL4uzMsyhx08Rcj0n6DNbncfI1+K5mSdesMFA/JGD+CtYxqCb+JIGAMT79xbF+PQ5hBijcMFVq59I4vvckNnaYPsDEcDX6sl/RB9MXEWzDheULQIfivHpMRG95fxAyaDsfy06Lnhw7RQdi99l36qGGFQ08azwvKoyr3nEltj2pasEXhR+Wdkuak0MgMuC71l4ncDa3cw73WzTfys862s3bgEeAMz1GV6dz/3kXRe1ZgYAxBhpMT51AYu3gCyZl0jCi2otAJitDf7Cc2aLEQBefhH2PVHZ2oVZ4LQYnz4vzv1i/9SrpYEsihZckV0cik8hkIrGYdUQj7O1mkeJKzoDCCQDj28jZHcmVdai1sUA2Cy4JzVMd3ISUPztxlS2ztztuQuo7EtOYqROsM1FrZuBLPIWPLTyNrtWfvaF9FA27wvpIV5Zuc6ulZNUsKhuqIkByFvwT+hJdgkzFdC86qxqKH8JX6qZnqcdwMVKFtWVt1YX5UJOHBgmrXy2+nVYwQLvO0nQU59WM+tOqIsBAHm5u3H9TvPHAJ7euYti7MFCvbh2sIMd/IfxDx+a0j0BUnaaAAAAAElFTkSuQmCC">
+
+      </i></a>
+    </div>
+  </footer>  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/app.js"></script>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+</body>
+</html>

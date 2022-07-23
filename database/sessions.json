@@ -1,0 +1,19 @@
+[{
+  "_id": "W_VeFB-QJqLGucKxBJjHS2ujsUd8GccF",
+  "expires": {
+    "$date": "2022-04-07T13:18:41.252Z"
+  },
+  "session": "{\"cookie\":{\"originalMaxAge\":86400000,\"expires\":\"2022-04-06T13:47:42.440Z\",\"httpOnly\":true,\"path\":\"/\"},\"flash\":{}}"
+},{
+  "_id": "rtGv3FXe5_84WzCREdll9g-40hUPohpv",
+  "expires": {
+    "$date": "2022-04-07T08:52:57.739Z"
+  },
+  "session": "{\"cookie\":{\"originalMaxAge\":86400000,\"expires\":\"2022-04-07T08:52:53.244Z\",\"httpOnly\":true,\"path\":\"/\"},\"flash\":{},\"cart\":{\"items\":{\"6231b37345fd252270976a7c\":{\"item\":{\"_id\":\"6231b37345fd252270976a7c\",\"productName\":\"GemiBook 13\",\"info\":\"APPLE FRANCE GUARANTEED\",\"description\":\"GemiBook 13 8 Go RAM 256 Go\",\"image\":\"GemiBook-13.png\",\"price\":459},\"qty\":1},\"undefined\":{\"item\":{},\"qty\":3}},\"totalQty\":4,\"totalPrice\":null}}"
+},{
+  "_id": "_Puff2K4TUjDN7nSNv0oClbVyj3Tap9g",
+  "expires": {
+    "$date": "2022-04-07T15:10:15.768Z"
+  },
+  "session": "{\"cookie\":{\"originalMaxAge\":86400000,\"expires\":\"2022-04-07T14:57:56.087Z\",\"httpOnly\":true,\"path\":\"/\"},\"flash\":{},\"passport\":{\"user\":\"624880316d2f814b30257161\"}}"
+}]

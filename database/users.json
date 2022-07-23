@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "622c92eba1ffbb1cb8e08302"
+  },
+  "role": "admin",
+  "name": "admin",
+  "email": "admin@admin.com",
+  "password": "$2b$10$5a.V4SFPnsTYxcXcP2Gya.m.4ke0aTvmK44h3yVGmD2VNnChoNrNi",
+  "createdAt": {
+    "$date": "2022-03-12T12:32:43.541Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-12T12:32:43.541Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622c930fa1ffbb1cb8e08303"
+  },
+  "role": "client",
+  "name": "Nicolas",
+  "email": "nicolas@gmail.com",
+  "password": "$2b$10$ZYHp.HOjIAKXI72SmCRFZeoSe7ZLpwI.qOw48SBnsj0CLcknSzFfG",
+  "createdAt": {
+    "$date": "2022-03-12T12:33:19.895Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-12T12:33:19.895Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622c93c132e7f90ec0151765"
+  },
+  "role": "client",
+  "name": "User",
+  "email": "user@gmail.com",
+  "password": "$2b$10$ouJKKAo9xlNDTHCIsm98reDX6KBh7b7HWFsBveCq5gN2In2HZraqW",
+  "createdAt": {
+    "$date": "2022-03-12T12:36:17.859Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-12T12:36:17.859Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "622c944b980e07041c9a09cc"
+  },
+  "role": "client",
+  "name": "client",
+  "email": "client@gmail.com",
+  "password": "$2b$10$YEDKlVpB9sDRljTv8K8eKeYapvRrOAjK3LfhENlPYPPYNa1hT3l.6",
+  "createdAt": {
+    "$date": "2022-03-12T12:38:35.782Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-12T12:38:35.782Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "623f041be5d091354066e936"
+  },
+  "role": "client",
+  "name": "user",
+  "email": "user@user.com",
+  "password": "$2b$10$glo39hSLb.V.z5FXd8SQjOCKi5nnd0qUxaa1vtb4yH/Un4I2XUwCe",
+  "createdAt": {
+    "$date": "2022-03-26T12:16:27.856Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-26T12:16:27.856Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "624880316d2f814b30257161"
+  },
+  "role": "client",
+  "name": "Furkan",
+  "email": "furkan@furkan.com",
+  "password": "$2b$10$PPWV1DIvMr7YxkA4.5HO7OiHLqztUZu0lkf.au8ECbB8WpLcix1r2",
+  "createdAt": {
+    "$date": "2022-04-02T16:56:17.353Z"
+  },
+  "updatedAt": {
+    "$date": "2022-04-02T16:56:17.353Z"
+  },
+  "__v": 0
+}]

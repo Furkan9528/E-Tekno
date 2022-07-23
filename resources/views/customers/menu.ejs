@@ -1,0 +1,22 @@
+<section class="menu container mx-auto py-8">
+  <h1 class="text-xl font-bold mb-8 text-center" style="font-family: 'Segoe UI' ; font-size: 40px ; color: #658dfe; ">Toutes Les Technologies</h1> <br> <br>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 col-gap-12 row-gap-16">
+    <% appareils.forEach(function(appareil){ %>
+      <div class="w-full md:w-64"> 
+        <img class="h-40 mb-4 mx-auto" src="/img/<%= appareil.image %>"alt="">
+        <div class="text-center">
+          <h2 class="mb-4 text-lg"><%= appareil.productName %></h2>
+          <span class="size py-1 px-4 rounded-full uppercase text-xs"><%= appareil.description %></span>
+          <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text-lg">€<%= appareil.price %></span>
+            <button data-appareil="<%= JSON.stringify(appareil) %>" class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+              <span>+</span>
+              <span>Ajoute</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    <% })%>
+  </div>
+</section>
+
